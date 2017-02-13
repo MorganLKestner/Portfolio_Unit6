@@ -1,14 +1,22 @@
     header {
       text-align: center;
-      background: url("images/banner.jpg");
-      background-size: cover;
+      background: url("https://s-media-cache-ak0.pinimg.com/736x/9e/9d/43/9e9d4349bdb185bb01863c01cfa89561.jpg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      box-shadow:inset 0 0 0 2000px rgba(166, 174, 163, 0.57);
       color: white;
+      height: 20em
     }
     .nav {
       color: white;
     }
-    h1 {
-      font-size: 70px;
+    .mytitle {
+      padding-top: 5em;
+      font-size: 15px;
+      color: blue;
+    }
+    .bio {
+      letter-spacing: 1px;
     }
     img {
       margin: 40px 0px 0px 0px;
@@ -16,6 +24,7 @@
       border-radius: 20px;
     }
     ul {
+      margin-top: 7em;
       padding: 10px;
       background: rgba(0,0,0,0.5);
     }
